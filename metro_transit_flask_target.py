@@ -28,7 +28,7 @@ def search():
     else:
         time = api.get_time_to_next_bus(route_id, dir_id, stop_id)
 
-    return render_template('search.html', route=route, dir=direction, stop=stop, time=time)
+    return render_template('search.html', route=route.title(), dir=direction, stop=stop.title(), time=time)
 
 
 if __name__ == '__main__':

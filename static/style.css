@@ -1,11 +1,14 @@
 body {
     background-color: lightsteelblue;
+    font-family: Arial, Verdana, sans-serif;
 }
 
 h1 {
     color: floralwhite;
+    font-family: Arial;
 }
 
 h2 {
     color: floralwhite;
+    font-family: Arial;
 }
