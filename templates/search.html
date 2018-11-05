@@ -1,10 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Time To Next Bus</title>
-</head>
-<body>
+{%  extends "base.html" %}
+
+{% block content %}
 
     <h1>Next stop on {{ route }}, going {{ dir }} at {{ stop }}: {{ time }}</h1>
     <br>
@@ -12,5 +8,4 @@
         <input type="submit" value="Back">
     </form>
 
-</body>
-</html>
+{% endblock %}

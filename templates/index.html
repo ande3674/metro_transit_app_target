@@ -1,21 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Metro Transit API</title>
-</head>
-<body>
+{%  extends "base.html" %}
+
+{% block content %}
 
     <div class="main search form">
         <h1>Search:</h1>
         <form action="/search" method="GET">
-            Route:<input type="text" name="route"><br>
-            Direction:<input type="text" name="direction"><br>
-            Stop:<input type="text" name="stop"><br>
+            <h2>Route:<input type="text" name="route"></h2><br>
+            <h2>Direction:<input type="text" name="direction"></h2><br>
+            <h2>Stop:<input type="text" name="stop"></h2><br>
             <br>
             <div class="button"><input type="submit" value="Go!"></div>
         </form>
     </div>
 
-</body>
-</html>
+{% endblock %}
